@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version="1.4">
+  <model name="Predio_Faculdade_low">
+    <link name="building">
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://meshes/Predio_Faculdade_low/Predio_Faculdade_low.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://meshes/Predio_Faculdade_low/Predio_Faculdade_low.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
